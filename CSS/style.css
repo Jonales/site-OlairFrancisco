@@ -120,9 +120,47 @@ body {
 
 /* End Landing Page */
 
-@media (max-width: 600px) {
-  .landing-page {
-    -webkit-flex-direction: column;
-    flex-direction: column;
+@media (max-width: 450px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 10%;
+    margin: auto 10px auto 10px;
+  }
+
+  .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+  }
+
+  .landing-page .header-area .links li {
+    margin-left: 130px;
+  }
+
+  .landing-page .image img {
+    max-width: 325px;
+  }
+
+  .image {
+    width: 350px;
+    right: 0px;
+    left: 50px;
+    top: 250px;
+    bottom: 0px;
+    margin: 0px;
+  }
+
+  .landing-page .info {
+    width: 250px;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .body {
+    width: 50%;
+    height: 50%;
   }
 }
