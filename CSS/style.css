@@ -106,10 +106,9 @@ body {
 }
 
 .footer- {
-  background-color: #6c63ff;
   padding: 5px;
   text-align: center;
-  color: white;
+  color: #5d5d5d;
 }
 
 .info-vote {
