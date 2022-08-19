@@ -106,6 +106,7 @@ body {
 }
 
 .footer- {
+  width: auto;
   padding: 5px;
   text-align: center;
   color: #5d5d5d;
@@ -126,37 +127,57 @@ body {
   }
 
   .container {
-    width: 450px;
+    width: auto;
     margin: auto 10px auto 10px;
   }
 
-  .header-area {
+  .landing-page .header-area {
+    width: auto;
     display: flex;
     padding: 25px 0 0;
     position: relative;
   }
 
+  .landing-page .header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 300px;
+    color: #5d5d5d;
+  }
+
   .landing-page .header-area .links li {
-    margin-left: 130px;
+    font-size: 20px;
   }
 
   .landing-page .image img {
-    max-width: 325px;
+    max-width: auto;
   }
 
   .landing-page .image {
-    width: 400px;
+    width: auto;
     top: 250px;
     bottom: 0px;
     margin: 0px;
-    float: left;
+    float: initial;
     text-align: center;
   }
 
   .landing-page .info {
-    width: 400px;
+    width: auto;
     float: left;
     margin-top: 25px;
+  }
+
+  .landing-page .info p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .landing-page .info h1 {
+    font-size: 45px;
+    text-align: center;
   }
 
   .body {
@@ -165,10 +186,14 @@ body {
   }
 
   .footer- {
-    padding: 5px;
+    width: auto;
+  }
+
+  .footer- p {
+    margin: auto;
+    font-size: 20px;
     text-align: center;
     color: #5d5d5d;
-    width: 400px;
   }
 }
 
@@ -178,37 +203,57 @@ body {
   }
 
   .container {
-    width: 700px;
+    width: auto;
     margin: auto 10px auto 10px;
   }
 
-  .header-area {
+  .landing-page .header-area {
+    width: auto;
     display: flex;
     padding: 25px 0 0;
     position: relative;
   }
 
+  .landing-page .header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 300px;
+    color: #5d5d5d;
+  }
+
   .landing-page .header-area .links li {
-    margin-left: 130px;
+    font-size: 20px;
   }
 
   .landing-page .image img {
-    max-width: 325px;
+    max-width: auto;
   }
 
   .landing-page .image {
-    width: 700px;
+    width: auto;
     top: 250px;
     bottom: 0px;
     margin: 0px;
-    float: left;
+    float: initial;
     text-align: center;
   }
 
   .landing-page .info {
-    width: 700px;
+    width: auto;
     float: left;
     margin-top: 25px;
+  }
+
+  .landing-page .info p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .landing-page .info h1 {
+    font-size: 45px;
+    text-align: center;
   }
 
   .body {
@@ -217,9 +262,13 @@ body {
   }
 
   .footer- {
-    padding: 5px;
+    width: auto;
+  }
+
+  .footer- p {
+    margin: auto;
+    font-size: 20px;
     text-align: center;
     color: #5d5d5d;
-    width: 700px;
   }
 }
