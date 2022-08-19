@@ -126,7 +126,7 @@ body {
   }
 
   .container {
-    width: 10%;
+    width: 450px;
     margin: auto 10px auto 10px;
   }
 
@@ -144,17 +144,17 @@ body {
     max-width: 325px;
   }
 
-  .image {
-    width: 350px;
-    right: 0px;
-    left: 50px;
+  .landing-page .image {
+    width: 400px;
     top: 250px;
     bottom: 0px;
     margin: 0px;
+    float: left;
+    text-align: center;
   }
 
   .landing-page .info {
-    width: 250px;
+    width: 400px;
     float: left;
     margin-top: 25px;
   }
@@ -162,5 +162,64 @@ body {
   .body {
     width: 50%;
     height: 50%;
+  }
+
+  .footer- {
+    padding: 5px;
+    text-align: center;
+    color: #5d5d5d;
+    width: 400px;
+  }
+}
+
+@media (max-width: 770px) and (min-width: 451px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 700px;
+    margin: auto 10px auto 10px;
+  }
+
+  .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+  }
+
+  .landing-page .header-area .links li {
+    margin-left: 130px;
+  }
+
+  .landing-page .image img {
+    max-width: 325px;
+  }
+
+  .landing-page .image {
+    width: 700px;
+    top: 250px;
+    bottom: 0px;
+    margin: 0px;
+    float: left;
+    text-align: center;
+  }
+
+  .landing-page .info {
+    width: 700px;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .body {
+    width: 50%;
+    height: 50%;
+  }
+
+  .footer- {
+    padding: 5px;
+    text-align: center;
+    color: #5d5d5d;
+    width: 700px;
   }
 }
